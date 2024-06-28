@@ -1,3 +1,7 @@
 [package]
-crate-type = ["cdylib"]
 name = "rust_from_c"
+version = "0.0.1"
+
+[lib]
+name="name"
+crate-type = ["cdylib"]
