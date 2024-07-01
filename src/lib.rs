@@ -1,6 +1,5 @@
-
-
 #[no_mangle]
-extern "C" fn hello_world_from_rust() {
-    println!("bonjour");
+extern "C" fn double_twice(a: &mut i32, b: &i32) {
+    *a += *b;
+    *a += *b;
 }
